@@ -18,12 +18,12 @@ Outside of the relatively controlled environment of TU Delft, we have been condu
 At present one of the more significant limitations on scaling up this setup is cost. Since the system relies on third-party services (see below), each interaction carries a small monetary fee. Some suggestions on how this might be resolved in the near future are given below [something down there about Bloom/local model training], but for the moment the CB access point (URL) remains unpublished to prevent the risk of exploitation.
 
 ## Software
-CuratorBot is built on top of OpenAI’s ChatGPT API (https://platform.openai.com/docs/models/chatgpt). The user interface is built in Svelte, and the assets for it are available in the project’s Github repository: https://github.com/gukuma/chatgpt-visboeck 
+CuratorBot is built on top of OpenAI’s ChatGPT API (https://platform.openai.com/docs/models/chatgpt). The user interface is built in Svelte, and the assets for it are available in the project’s Github repository: [Repo](https://github.com/gukuma/VisboeckGPT)
 
 Information Sources
-The CB contains supplemental information (fine-tuning) on top of the general model provided by OpenAI. There are eighteen scanned images selected for display from the larger volume of Het Visboeck, which has been digitized by the National Library of the Netherlands and is available in their Delpher system: https://geheugen.delpher.nl/nl/geheugen/view/visboeck?coll=ngvn&maxperpage=36&page=1&query=visboeck&identifier=TOPSTUK%3A0071. 
+The CB contains supplemental information (fine-tuning) on top of the general model provided by OpenAI. There are eighteen scanned images selected for display from the larger volume of Het Visboeck, which has been digitized by the National Library of the Netherlands and is available in their [Delpher system](https://geheugen.delpher.nl/nl/geheugen/view/visboeck?coll=ngvn&maxperpage=36&page=1&query=visboeck&identifier=TOPSTUK%3A0071). 
 
-General information about the work has been drawn from the Wikipedia entry on the Visboeck: https://nl.wikipedia.org/wiki/Visboeck. Moreover each page has been supplemented with information from the Rondleiding (tour guide) curated by the National Library and available through a website dedicated to the Visboeck: https://galerij.kb.nl/kb.html#/nl/visboek/page/15/zoom/3/lat/-55.12864906848878/lng/52.55859375.  
+General information about the work has been drawn from the Wikipedia entry on the Visboeck: https://nl.wikipedia.org/wiki/Visboeck. Moreover each page has been supplemented with information from the Rondleiding (tour guide) curated by the National Library and available through a [website dedicated to the Visboeck](https://galerij.kb.nl/kb.html#/nl/visboek/page/15/zoom/3/lat/-55.12864906848878/lng/52.55859375).  
 
 An extensive amount of further documentation, including transcripts, academic literature and exhibition catalogues, could be used to extend the information base within the CB. At present these have been ignored due to costs associated with fine-tuning the system. 
 
