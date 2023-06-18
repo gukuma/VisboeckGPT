@@ -1,0 +1,9 @@
+{
+	"/": [
+		"src/routes/+page.server.js"
+	],
+	"/about": [],
+	"/api/chat": [
+		"src/routes/api/chat/+server.ts"
+	]
+}
