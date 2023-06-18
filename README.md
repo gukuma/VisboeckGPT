@@ -54,19 +54,16 @@ PUBLIC_SUPABASE_ANON_KEY=
 1. Ensure you have Node.js installed on your machine.
 2. Install project dependencies by running the following command in the project directory:
 
-```bash
+```
 npm install
+```
 
 ## Developing
 
 Once you've installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```
-bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
 ## Building
